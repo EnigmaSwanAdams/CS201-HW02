@@ -8,3 +8,7 @@ on blackbuard
 **********************************************/
 
 #include <iostream>
+
+int main() {
+	
+}
