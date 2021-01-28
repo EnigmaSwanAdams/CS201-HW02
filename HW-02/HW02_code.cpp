@@ -7,8 +7,5 @@ further description of behavior can be found
 on blackbuard
 **********************************************/
 
-#include <iostream>
 
-int main() {
-	
-}
+
