@@ -15,7 +15,8 @@ using std::vector;
 using std::getline;
 using std::cin;
 
-void InputNames(vector<string>& names);
+void InputNames(vector<string>& names); //prompts for and get s ten names from the user
 
-//void PrintVector(vector<string>& vec);
+void PrintVector(vector<string>& vec);  // prints the vector
+										// for testing if things have been properly stored
 

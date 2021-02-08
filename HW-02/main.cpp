@@ -13,6 +13,6 @@ other functions
 int main() {
 	vector <string> names(0);
 	InputNames(names);
-	 
+	PrintVector(names);
 	return 0;
 }

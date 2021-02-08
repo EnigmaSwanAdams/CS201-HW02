@@ -20,6 +20,12 @@ void InputNames(vector<string> & names) {
 	}
 }
 
+void PrintVector(vector<string>& vec) { //prints the vector. 
+	for (int i = 0; i < vec.size(); i++) { //for testing if things have been properly stored
+		cout << vec.at(i) << ' ';
+	}
+}
+
 
 
 
