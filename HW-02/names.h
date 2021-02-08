@@ -18,7 +18,7 @@ using std::endl;
 
 void InputNames(vector<string>& names); //prompts for and get s ten names from the user
 
-void PrintVector(vector<string>& vec);  // prints the vector
+void PrintNames(const vector<string>& names);  // prints the vector
 										// for testing if things have been properly stored
 
 bool DoesNameExist(const string& nameToFind, const vector<string>& names); // checks if the first input  

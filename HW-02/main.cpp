@@ -13,7 +13,7 @@ other functions
 int main() {
 	vector <string> names(0);
 	InputNames(names);
-	PrintVector(names);  // for testing the InputNames function
+	PrintNames(names);  // for testing the InputNames function
 
 	string newName;
 	cout << "Enter one more name ";

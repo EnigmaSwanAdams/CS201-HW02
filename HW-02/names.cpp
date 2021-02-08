@@ -24,9 +24,9 @@ void InputNames(vector<string> & names) {
 	}
 }
 
-void PrintVector(vector<string>& vec) { //prints the vector. 
-	for (int i = 0; i < vec.size(); i++) { //for testing if things have been properly stored
-		cout << vec.at(i) << ' ';
+void PrintNames(const vector<string>& names) { //prints the vector. 
+	for (int i = 0; i < names.size(); i++) { //for testing if things have been properly stored
+		cout << names.at(i) << ' ';
 	}
 	cout << endl;
 }
