@@ -24,23 +24,26 @@ void InputNames(vector<string> & names) {
 	}
 }
 
-void PrintNames(const vector<string>& names) { //prints the vector. 
-	for (int i = 0; i < names.size(); i++) { //for testing if things have been properly stored
-		cout << names.at(i) << ' ';
+void PrintNames(const vector<string>& names) {   //prints thoughts of the people with the names, and changes the names to all caps
+	vector<string> exclamations{" IS EXCITED!", " IS VERY HAPPY!!", " IS ELATED", " ACTUALLY... just kind of wants to leave" };
+	vector<string> copiedNames = names;
+
+	for (int i = 0; i < names.size(); i++) { 
+		
+		transform(copiedNames.at(i).begin(), copiedNames.at(i).end(), copiedNames.at(i).begin(), ::toupper);
+		cout << copiedNames.at(i) << exclamations.at(rand() % 4) << endl;
 	}
 	cout << endl;
 }
+
 
 bool DoesNameExist(const string& nameToFind, const vector<string>& names) { // checks if the first input   
 	for (int i = 0; i < names.size(); i++) {						        //can be found in the vector
 		if (names.at(i) == nameToFind) {
 			return true;
-		}
-		else {
-			return false;
-			cout << names.at(i);
-		}
+		}	
 	}
+	return false;
 }
 
 
