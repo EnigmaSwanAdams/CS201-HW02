@@ -43,12 +43,13 @@ int powersOf2(int x) {
 	return y;
 }
 
-void numcalcs() {
-	int testNum = 10;
-	int rice;
+void numCalcs() {
+	int testNum = 1025;
+	double rice = 1;
 	for (int numSquares = 1; numSquares <= testNum; numSquares++) {
-		rice = rice * 2;
+		
 		cout << numSquares << " " << rice << endl;
+		rice = rice * 2;
 	}
 
 	

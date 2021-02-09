@@ -75,7 +75,11 @@ int main() {
 	cout << "You would need to have invented a chess buard with " << numSquares << " squares";
 	*/
 
-	numCalcs();
+	//numCalcs(); // just for helping me test what the largest values were 
+	cout << "The largest number of squares for which you can calcualte an\n"
+		"exact number of grains is 31" << endl;
+	cout << "The largest number of squares for which you can calcualte an\n"
+		"approximate number of grains using a double is 1024" << endl;
 
 
 	return 0;
