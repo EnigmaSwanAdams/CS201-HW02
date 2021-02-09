@@ -142,8 +142,10 @@
     <ClCompile Include="names.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="money.cpp" />
+    <ClCompile Include="rice.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="rice.h" />
     <ClInclude Include="money.h" />
     <ClInclude Include="names.h" />
   </ItemGroup>

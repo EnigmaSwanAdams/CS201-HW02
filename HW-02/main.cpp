@@ -19,13 +19,18 @@ list of ten names and tell the user one way or the other.
 
 now it also prompts for the amount of money in different coins a person has
 then tells them about what they just entered, and the total amount in dollars
+
+now it also calculates the amount of squares 
+required for the user to get a given number 
+of rice grains
 **********************************************/
 
 #include "names.h"
 #include "money.h"
+#include "rice.h"
 
 int main() {
-	vector <string> names(0); // for testing the printNames function
+	/*vector <string> names(0); // for testing the printNames function
 	InputNames(names);
 
 	cout << endl;
@@ -54,5 +59,24 @@ int main() {
 	
 	
 	money(); // testing the additional program 1, money.cpp
-	return 0; 
-}
+	
+
+	///*for (int i = 1; i <= 9; i++) { // for testing 
+		//findNumSquares(i);
+	//}
+
+	//cout << powersOf2(3); //  for testing
+
+	int numRice = 0;
+	cout << "Enter how much rice yu would want if you were the inventor: ";
+	cin >> numRice;
+	int numSquares = findNumSquares(numRice);
+	cout << endl;
+	cout << "You would need to have invented a chess buard with " << numSquares << " squares";
+	*/
+
+	numCalcs();
+
+
+	return 0;
+	}
