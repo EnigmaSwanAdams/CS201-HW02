@@ -5,15 +5,24 @@ CS 201 Homework 02: main.cpp
 
 This file contains the main function
 I will be utilizing in the end to run all 
-other functions
+other functions in the main program as decribed
+in the main program in the homewrk
+
+I don't think it is neccessary 
+for the end result, but I used
+it for testing.
 
 right now it gets ten names from a user
 prints those names, and then asks the user for another name
 then it checks if the last name can be found in the previouse
 list of ten names and tell the user one way or the other. 
+
+now it also prompts for the amount of money in different coins a person has
+then tells them about what they just entered, and the total amount in dollars
 **********************************************/
 
 #include "names.h"
+#include "money.h"
 
 int main() {
 	vector <string> names(0); // for testing the printNames function
@@ -44,5 +53,6 @@ int main() {
 	
 	
 	
-	return 0;
+	money(); // testing the additional program 1, money.cpp
+	return 0; 
 }
